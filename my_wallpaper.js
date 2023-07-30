@@ -20,7 +20,9 @@ function wallpaper_background() {
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
   let cloudColor = color('#f5fcff');
-noStroke()//sky five
+
+
+  noStroke()//sky five
 fill(196, 238, 255)
 ellipse(5,20,35,35)
 ellipse(25,30,25,25)
@@ -68,7 +70,7 @@ ellipse(195,100,7,7)
 
   noStroke()//sky one
   fill(104, 176, 212)
-//ellipse(7,175,80,90)
+ellipse(7,175,80,90)
 ellipse(80,185,90,60)
 ellipse(140,170,85,70)
 ellipse(180,185,65,50)
@@ -80,7 +82,7 @@ ellipse(207,175,80,90)
 
 noStroke()//sky six repeat
 fill(217, 244, 255)
-ellipse(20,200,60,60)
+//ellipse(20,200,60,60)
 ellipse(220,200,60,60)
 ellipse(50,210,45,45)
 ellipse(90,210,50,50)
