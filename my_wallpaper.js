@@ -51,7 +51,7 @@ ellipse(158,35,9,9)
   ellipse(20,100,65,70)
   ellipse(65,110,45,45)
   ellipse(90,95,20,20)
-  ellipse(175,95,65,65)
+  ellipse(175,95,65,65)//
   ellipse(220,100,65,70)
   //ellipse(-35,95,65,65)
   ellipse(77,83,8,8)
