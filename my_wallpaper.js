@@ -48,14 +48,14 @@ if(random(1) > 0.3){
     
   noStroke()
   fill(stegoGreenShadow)
-  triangle(30,150,35,110,80,110)
+  triangle(30,150,35,110,80,110)//Shadowed legs
   triangle(29.7,150,42,153,80,110)
   triangle(115,150,105,120,130,120)
   triangle(114.7,150,140,120,130,146)
   triangle(115,150,115,130,126,140)
   ellipse(125,138,10,10)
   
-  fill(stegoOrangeShadow)
+  fill(stegoOrangeShadow)//Shadowed plates
   triangle(90,88,75,30,65,63)//Middle plate
   triangle(89.7,88,74.7,30,100,57)
   triangle(120,88,140,46,115,63)//Back plate one
@@ -98,12 +98,12 @@ if(random(1) > 0.3){
   ellipse(130,115,10,7)
   ellipse(137,105,7,7)
 
-  // triangle(40,10,40,30,30,20)
+  // triangle(40,10,40,30,30,20) //Diamond decals
   // triangle(40,10,40,30,50,20)
   // triangle(55,27,55,35,50,31)
   // triangle(55,27,55,35,60,31)
 
-  // triangle(155,27,155,35,150,31)
+  // triangle(155,27,155,35,150,31) //Spot decals
   // triangle(155,27,155,35,160,31)
 
   ellipse(20,30,15,17)
@@ -112,7 +112,7 @@ if(random(1) > 0.3){
 
   if(random(1) > 0.6){
     noStroke()
-  fill(stegoBlueShadow)
+  fill(stegoBlueShadow)//Shadowed legs
   triangle(30,150,35,110,80,110)
   triangle(29.7,150,42,153,80,110)
   triangle(115,150,105,120,130,120)
@@ -120,7 +120,7 @@ if(random(1) > 0.3){
   triangle(115,150,115,130,126,140)
   ellipse(125,138,10,10)
   
-  fill(stegoRedShadow)
+  fill(stegoRedShadow)//Shadowed Plates
   triangle(90,88,75,30,65,63)//Middle plate
   triangle(89.7,88,74.7,30,100,57)
   triangle(120,88,140,46,115,63)//Back plate one
@@ -163,15 +163,15 @@ if(random(1) > 0.3){
   ellipse(130,115,10,7)
   ellipse(137,105,7,7)
 
-  // triangle(40,10,40,30,30,20)
+  // triangle(40,10,40,30,30,20) //Diamond decals
   // triangle(40,10,40,30,50,20)
   // triangle(55,27,55,35,50,31)
   // triangle(55,27,55,35,60,31)
 
-  // triangle(155,27,155,35,150,31)
+  // triangle(155,27,155,35,150,31) 
   // triangle(155,27,155,35,160,31)
 
-  ellipse(20,30,15,17)
+  ellipse(20,30,15,17) //Spot decals
   ellipse(35,40,7,7)
   ellipse(170,50,7,7)
 }}
@@ -202,7 +202,6 @@ if(random(1) > 0.3){
     
     
     fill(stegoPurple)
-    
     ellipse(100,100,95,80)//Stego body
     ellipse(25,120,35,30)//Stego head
     triangle(15,110,75,66,75,135)//Stego neck
@@ -230,7 +229,7 @@ if(random(1) > 0.3){
     ellipse(130,115,10,7)
     ellipse(137,105,7,7)
 
-  //   triangle(40,10,40,30,30,20)
+  //   triangle(40,10,40,30,30,20) //Diamond Decals
   // triangle(40,10,40,30,50,20)
   // triangle(55,27,55,35,50,31)
   // triangle(55,27,55,35,60,31)
@@ -238,10 +237,10 @@ if(random(1) > 0.3){
   // triangle(155,27,155,35,150,31)
   // triangle(155,27,155,35,160,31)
 
-  ellipse(20,30,15,17)
+  ellipse(20,30,15,17) //Spot Decals
   ellipse(35,40,7,7)
   ellipse(170,50,7,7)
   }
   
-  fill(0)
+  fill(0)//Eye
   ellipse(22,125,5,5)}
