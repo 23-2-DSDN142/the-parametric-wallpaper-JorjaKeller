@@ -19,7 +19,7 @@ function wallpaper_background() {
 }
 
 function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
-  let skyColor = color('#3b2633');
+  let skyColor = color('#3b2633');//I ran into an issue with my code failing unless my parameters came under the draw function.
   let stegoGreen = color(210, 232, 155)
   let stegoOrange = color(247, 180, 92)
   let stegoGreenShadow = color(129, 153, 67)
@@ -39,9 +39,12 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   fill(skyColor)
   rect(100,100,200,200)
   
+  noStroke()
+  fill(99, 73, 89)
+  ellipse(100,100,170,150)
   
-  
-  if(random(1) > 0.3){
+ 
+if(random(1) > 0.3){
     
   noStroke()
   fill(stegoGreenShadow)
@@ -95,6 +98,18 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   ellipse(130,115,10,7)
   ellipse(137,105,7,7)
 
+  // triangle(40,10,40,30,30,20)
+  // triangle(40,10,40,30,50,20)
+  // triangle(55,27,55,35,50,31)
+  // triangle(55,27,55,35,60,31)
+
+  // triangle(155,27,155,35,150,31)
+  // triangle(155,27,155,35,160,31)
+
+  ellipse(20,30,15,17)
+  ellipse(35,40,7,7)
+  ellipse(170,50,7,7)
+
   if(random(1) > 0.6){
     noStroke()
   fill(stegoBlueShadow)
@@ -146,7 +161,20 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
   triangle(65.3,95,50.3,55,45,80)
   ellipse(150,110,12,15)
   ellipse(130,115,10,7)
-  ellipse(137,105,7,7)}}
+  ellipse(137,105,7,7)
+
+  // triangle(40,10,40,30,30,20)
+  // triangle(40,10,40,30,50,20)
+  // triangle(55,27,55,35,50,31)
+  // triangle(55,27,55,35,60,31)
+
+  // triangle(155,27,155,35,150,31)
+  // triangle(155,27,155,35,160,31)
+
+  ellipse(20,30,15,17)
+  ellipse(35,40,7,7)
+  ellipse(170,50,7,7)
+}}
   
   else{
     
@@ -200,7 +228,20 @@ function my_symbol() { // do not rename this function. Treat this similarly to a
     triangle(65.3,95,50.3,55,45,80)
     ellipse(150,110,12,15)
     ellipse(130,115,10,7)
-    ellipse(137,105,7,7)}
+    ellipse(137,105,7,7)
+
+  //   triangle(40,10,40,30,30,20)
+  // triangle(40,10,40,30,50,20)
+  // triangle(55,27,55,35,50,31)
+  // triangle(55,27,55,35,60,31)
+
+  // triangle(155,27,155,35,150,31)
+  // triangle(155,27,155,35,160,31)
+
+  ellipse(20,30,15,17)
+  ellipse(35,40,7,7)
+  ellipse(170,50,7,7)
+  }
   
   fill(0)
   ellipse(22,125,5,5)}
